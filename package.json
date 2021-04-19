@@ -1,0 +1,20 @@
+{
+  "name": "sort-json-keys",
+  "version": "0.0.1",
+  "description": "Sort JSON keys alphabetically at all levels",
+  "keywords": [
+    "sort",
+    "JSON",
+    "keys"
+  ],
+  "author": "uid11",
+  "license": "MIT",
+  "bin": "index.js",
+  "bugs": "https://github.com/uid11/sort-json-keys/issues",
+  "engines": {
+    "node": ">=14"
+  },
+  "homepage": "https://github.com/uid11/sort-json-keys#readme",
+  "repository": "github:/uid11/sort-json-keys",
+  "types": "index.d.ts"
+}
