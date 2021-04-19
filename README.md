@@ -1,6 +1,6 @@
 # sort-json-keys
 
-[![dependencies: none][dependencies-none]](https://github.com/uid11/sort-json-keys)
+[![dependencies: none][dependencies-none]](package.json)
 [![code style: prettier][prettier-image]](https://github.com/prettier/prettier)
 [![Conventional Commits][conventional-commits-image]](https://conventionalcommits.org)
 [![License MIT][license-image]](LICENSE)
@@ -9,7 +9,7 @@ Sort JSON keys alphabetically at all levels.
 
 ## Install
 
-Requires `node@14` or higher.
+Requires `node@14` or higher:
 
 ```sh
 npm install sort-json-keys --save-dev
