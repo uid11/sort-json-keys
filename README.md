@@ -26,10 +26,12 @@ Sort all keys in the `foo.json` file in alphabetical order, indented by two spac
 npx sort-json-keys foo.json
 ```
 
+Sorting the keys does not change the JS value of the JSON. In particular, array elements are not sorted.
+
 For example this converts a JSON-file
 
 ```json
-{ "b": 1, "a": { "y": 2, "x": 3 }, "c": 4 }
+{ "b": 1, "a": { "y": 2, "x": 3 }, "c": ["b", "a"] }
 ```
 
 to a file
@@ -41,7 +43,10 @@ to a file
     "y": 2
   },
   "b": 1,
-  "c": 4
+  "c": [
+    "b",
+    "a"
+  ]
 }
 ```
 
@@ -63,7 +68,7 @@ Sort all keys in `foo.json` files without indentation (as a one-line file):
 npx sort-json-keys foo.json --indent 0
 ```
 
-### JavaScript/TypeScript API (CommonJS)
+### JavaScript/TypeScript API
 
 ```js
 import sortJsonKeys from "sort-json-keys";
