@@ -1,6 +1,6 @@
 {
   "name": "sort-json-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sort JSON keys alphabetically at all levels",
   "keywords": [
     "sort",
