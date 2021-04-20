@@ -63,7 +63,7 @@ Sort all keys in `foo.json` files without indentation (as a one-line file):
 npx sort-json-keys foo.json --indent 0
 ```
 
-### JavaScript/TypeScript API
+### JavaScript/TypeScript API (CommonJS)
 
 ```js
 import sortJsonKeys from "sort-json-keys";
