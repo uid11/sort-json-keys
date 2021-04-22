@@ -15,6 +15,9 @@
     "node": ">=14"
   },
   "homepage": "https://github.com/uid11/sort-json-keys#readme",
-  "repository": "github:/uid11/sort-json-keys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uid11/sort-json-keys.git"
+  },
   "types": "index.d.ts"
 }
